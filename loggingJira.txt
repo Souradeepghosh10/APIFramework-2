@@ -1,0 +1,47 @@
+Request method:	POST
+Request URI:	https://souradeepghosh10.atlassian.net/rest/api/3/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic c291cmFkZWVwLmdob3NoMTBAZ21haWwuY29tOkFUQVRUM3hGZkdGMFAybnN1cy1xRnctWG13ZjNwWE8yY3ItREt0ODdCN1d1aE1SQS13UGNxTUl1WUY4Z1lJVzNUcjJ0M2lYWlYxUnZFV29jTnNtRWRVTEhjREY5ZXNIdW9xWGp5RzhGQTMyOFYwSTJleUVzTXlQWHZPVGFOSExkYUUwbTQ5QWhBVmxFM0NtQWxMaFV5d3NlSkdfeExpWi1MQVBoRlloODhaN0l4SmNiZXpjekVMND03QzEzQzExQg==
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "SCRUM"
+        },
+        "summary": "Automation testing Defect for doc1",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Date: Tue, 13 Aug 2024 19:06:26 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: fcf770dc1a552fdba2905dd08a08845d
+Set-Cookie: atlassian.xsrf.token=b74041951eef3e570e5671d7bbc8b94c5cb9c335_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 5d039c723b0bfb0c05d24627
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: a844b02d57084813862997178f1a941a
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Transfer-Encoding: chunked
+
+{
+    "id": "10016",
+    "key": "SCRUM-17",
+    "self": "https://souradeepghosh10.atlassian.net/rest/api/3/issue/10016"
+}
